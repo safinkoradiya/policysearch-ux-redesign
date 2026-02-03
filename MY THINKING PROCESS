@@ -1,1 +1,95 @@
+# Design Inspiration & Competitive Analysis
 
+Before proposing the new design for PolicySearch, I studied leading insurance and broker websites to understand what works well in terms of clarity, navigation, and conversion.
+
+The two primary references were:
+
+- TATA AIG
+- Massive Insurance
+
+These websites helped identify practical UI/UX patterns that guide users effectively toward insurance purchase and lead generation.
+
+---
+
+## Inspiration 1 — TATA AIG
+
+### What works well
+
+1. **Vertical insurance icons placed at the starting eye position (left side)**
+   - Matches natural reading flow (left → right)
+   - Immediately shows available insurance types
+   - Reduces decision time for users
+
+2. **Minimal announcement/news bar above navigation**
+   - Communicates important information without clutter
+   - Adds trust and professionalism to the interface
+
+3. **Category-based scroll behavior**
+   - When selecting Motor insurance, the page context becomes Motor-focused
+   - Creates strong contextual continuity
+   - User feels they are in the right section
+
+4. **Smart header behavior on scroll**
+   - Navigation bar disappears after the first section
+   - A prominent **Get Quote** button appears
+   - Focus shifts from browsing to action
+
+### Observed Issue
+
+- Navigation interaction causes a visual freeze/heavy overlay effect
+- This breaks the smooth experience and feels disruptive to users
+
+### Learning Applied
+
+Use smooth, lightweight, non-blocking navigation transitions in the new design.
+
+---
+
+## Inspiration 2 — Massive Insurance
+
+### What works well
+
+1. **Very clean and simple navigation bar**
+   - Easy to understand
+   - No cognitive overload
+   - Straightforward options
+
+2. **Clear and highlighted POSP section**
+   - Important for broker-model websites
+   - Strong call-to-action for agents/partners
+   - Clearly separated from customer journey
+
+3. **Card-based insurance presentation**
+   - Easy to scan
+   - Friendly and modern layout
+   - Improves readability
+
+### Learning Applied
+
+Adopt a simple navigation structure and give strong visual importance to the POSP section.
+
+---
+
+## Key Learnings Applied to PolicySearch Redesign
+
+| Observation | Source | Application in PolicySearch |
+|-------------|--------|------------------------------|
+| Vertical insurance selection at first eye focus | TATA AIG | Insurance categories placed prominently at hero start |
+| Minimal top announcement strip | TATA AIG | Add slim info bar above navigation |
+| Scroll transforms header into CTA | TATA AIG | Sticky **Get Quote** after hero section |
+| Smooth navigation without freeze | TATA AIG issue | Lightweight dropdown / mega menu |
+| Clean navigation structure | Massive Insurance | Simple and readable navbar |
+| Strong POSP visibility | Massive Insurance | Dedicated POSP highlight section |
+| Card-based category clarity | Both | Use cards for insurance types |
+
+---
+
+## Final Design Direction for PolicySearch
+
+The new PolicySearch homepage will be:
+
+- One-page, extremely clean, and direct
+- Focused on **Insurance selection → Quote → Lead capture**
+- With strong visibility for **POSP / Partner section**
+- Minimal distractions, maximum clarity
+- Navigation that supports the user journey without interrupting it
